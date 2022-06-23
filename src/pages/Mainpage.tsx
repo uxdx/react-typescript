@@ -1,14 +1,14 @@
-import Navbar from './Navbar';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
+import MainBody from './_Body';
+import Footer from './_Footer';
+import Header from './_Header';
 
 
 function MainPage() {
-    return <div>
-        <Navbar/>
-        <Button variant="contained">Hello World</Button>
-        <Container maxWidth="sm"/>
-    </div>
+    return <>
+        <Header/>
+        <MainBody/>
+        <Footer/>
+    </>
 }
 
 export default MainPage
